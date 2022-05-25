@@ -61,10 +61,7 @@ export default function App() {
   //////////////// EVENT HANDLERS ////////////////
   const inputChange = (name, value) => {
     // 🔥 STEP 10- RUN VALIDATION WITH YUP
-    setFormValues({
-      ...formValues,
-      [name]: value // NOT AN ARRAY
-    })
+    setFormValues({ ...formValues, [name]: value });
   }
 
   const formSubmit = () => {
@@ -91,6 +88,10 @@ export default function App() {
 
   return (
     <div className='container'>
+      {/**
+       * const elem = document.createElement("div");
+       * elem.classList.add("container");
+       */}
       <header><h1>Friends App</h1></header>
 
       <FriendForm
