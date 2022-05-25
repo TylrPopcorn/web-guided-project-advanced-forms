@@ -19,9 +19,9 @@ const initialFormValues = {
   ///// RADIO BUTTONS /////
   civil: '',
   ///// CHECKBOXES /////
-  hiking: false,
+  jamming: false,
   reading: false,
-  coding: false,
+  golf: false,
 }
 const initialFormErrors = {
   username: '',

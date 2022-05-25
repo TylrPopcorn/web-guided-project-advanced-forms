@@ -113,7 +113,7 @@ export default function FriendForm(props) {
             name="jamming"
             type="checkbox"
             onChange={onChange}
-            checked={values.hiking}
+            checked={values.jamming}
           />
         </label>
 
@@ -131,7 +131,7 @@ export default function FriendForm(props) {
             name="golf"
             type="checkbox"
             onChange={onChange}
-            checked={values.coding}
+            checked={values.golf}
           />
         </label>
       </div>
