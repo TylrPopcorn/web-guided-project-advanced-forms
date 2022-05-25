@@ -27,7 +27,7 @@ export default function FriendForm(props) {
         <h2>Add a Friend</h2>
 
         {/* 🔥 DISABLE THE BUTTON */}
-        <button>submit</button>
+        <button disabled={disabled}>submit</button>
 
         <div className='errors'>
           {/* 🔥 RENDER THE VALIDATION ERRORS HERE */}
@@ -108,9 +108,9 @@ export default function FriendForm(props) {
         {/* ////////// CHECKBOXES ////////// */}
         {/* ////////// CHECKBOXES ////////// */}
         {/* ////////// CHECKBOXES ////////// */}
-        <label>Hiking
+        <label>Jamming
           <input
-            name="hiking"
+            name="jamming"
             type="checkbox"
             onChange={onChange}
             checked={values.hiking}
@@ -118,11 +118,21 @@ export default function FriendForm(props) {
         </label>
 
         <label>Reading
-
+          <input
+            name="reading"
+            type="checkbox"
+            onChange={onChange}
+            checked={values.reading}
+          />
         </label>
 
-        <label>Coding
-
+        <label>Golf
+          <input
+            name="golf"
+            type="checkbox"
+            onChange={onChange}
+            checked={values.coding}
+          />
         </label>
       </div>
     </form>
