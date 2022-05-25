@@ -10,9 +10,9 @@ const friends = [
     role: 'student',
     civil: 'single',
     hobbies: [
-      'hiking',
+      'jamming',
       'reading',
-      'coding',
+      'golf',
     ],
   },
 ]

@@ -7,6 +7,7 @@ export default function FriendForm(props) {
     change,
     disabled,
     errors,
+    clearForm
   } = props
 
   const onSubmit = evt => {
@@ -28,7 +29,6 @@ export default function FriendForm(props) {
 
         {/* 🔥 DISABLE THE BUTTON */}
         <button disabled={disabled}>submit</button>
-
         <div className='errors'>
           {/* 🔥 RENDER THE VALIDATION ERRORS HERE */}
           <div>{errors.username}</div>
